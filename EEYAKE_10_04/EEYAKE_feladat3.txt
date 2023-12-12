@@ -1,0 +1,19 @@
+a) mkdir -p eeyake/bokor/{Alma,Dió,Mogyoró}; mkdir -p eeyake/fa/korte; mkdir -p eeyake/land/{banán,ananász}
+b) cp -r eeyake/land/szeder/ eeyake/fa/; cp -r eeyake/bokor/banan/ eeyake/fa/
+c) mv eeyake/bokor/barack/ eeyake/fa/; mv eeyake/land/kokus/ eeyake/fa/
+d) rm -r eeyake/land/; mkdir -p eeyake/tree; touch eeyake/bokor/banan/leiras.txt eeyake/tree/felsorolas.txt
+e) cat > eeyake/bokor/banan/leiras.txt 
+Szeretem az őszt
+Az alma jó.
+A MAMÁM!.
+^D
+cat > eeyake/tree/felsorolas.txt 
+Domcsi Dominik
+Bíbor Balázs
+Garai Huba
+^D
+f) ls -R eeyake
+g) cd /; find / -type f -name '?e*'
+h) chmod a+r eeyake/tree/felsorolas.txt
+i) du -sh eeyake
+j) sort eeyake/tree/felsorolas.txt
